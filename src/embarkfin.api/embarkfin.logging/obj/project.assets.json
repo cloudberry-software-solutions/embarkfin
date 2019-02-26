@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Source\\Repos\\Cloudberry\\embarkfin\\embarkfin.logging\\embarkfin.logging.csproj",
+      "projectUniqueName": "E:\\Source\\Repos\\Cloudberry\\embarkfin\\src\\embarkfin.api\\embarkfin.logging\\embarkfin.logging.csproj",
       "projectName": "embarkfin.logging",
-      "projectPath": "E:\\Source\\Repos\\Cloudberry\\embarkfin\\embarkfin.logging\\embarkfin.logging.csproj",
+      "projectPath": "E:\\Source\\Repos\\Cloudberry\\embarkfin\\src\\embarkfin.api\\embarkfin.logging\\embarkfin.logging.csproj",
       "packagesPath": "C:\\Users\\makar\\.nuget\\packages\\",
-      "outputPath": "E:\\Source\\Repos\\Cloudberry\\embarkfin\\embarkfin.logging\\obj\\",
+      "outputPath": "E:\\Source\\Repos\\Cloudberry\\embarkfin\\src\\embarkfin.api\\embarkfin.logging\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Source\\Repos\\Cloudberry\\embarkfin\\embarkfin.api\\embarkfin.dataaccess\\embarkfin.dataaccess.csproj",
+      "projectUniqueName": "E:\\Source\\Repos\\Cloudberry\\embarkfin\\src\\embarkfin.api\\embarkfin.api\\embarkfin.dataaccess\\embarkfin.dataaccess.csproj",
       "projectName": "embarkfin.dataaccess",
-      "projectPath": "E:\\Source\\Repos\\Cloudberry\\embarkfin\\embarkfin.api\\embarkfin.dataaccess\\embarkfin.dataaccess.csproj",
+      "projectPath": "E:\\Source\\Repos\\Cloudberry\\embarkfin\\src\\embarkfin.api\\embarkfin.api\\embarkfin.dataaccess\\embarkfin.dataaccess.csproj",
       "packagesPath": "C:\\Users\\makar\\.nuget\\packages\\",
-      "outputPath": "E:\\Source\\Repos\\Cloudberry\\embarkfin\\embarkfin.api\\embarkfin.dataaccess\\obj\\",
+      "outputPath": "E:\\Source\\Repos\\Cloudberry\\embarkfin\\src\\embarkfin.api\\embarkfin.api\\embarkfin.dataaccess\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

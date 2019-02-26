@@ -11800,11 +11800,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Source\\Repos\\Cloudberry\\embarkfin\\embarkfin.api\\embarkfin.api\\embarkfin.api.csproj",
+      "projectUniqueName": "E:\\Source\\Repos\\Cloudberry\\embarkfin\\src\\embarkfin.api\\embarkfin.api\\embarkfin.api\\embarkfin.api.csproj",
       "projectName": "embarkfin.api",
-      "projectPath": "E:\\Source\\Repos\\Cloudberry\\embarkfin\\embarkfin.api\\embarkfin.api\\embarkfin.api.csproj",
+      "projectPath": "E:\\Source\\Repos\\Cloudberry\\embarkfin\\src\\embarkfin.api\\embarkfin.api\\embarkfin.api\\embarkfin.api.csproj",
       "packagesPath": "C:\\Users\\makar\\.nuget\\packages\\",
-      "outputPath": "E:\\Source\\Repos\\Cloudberry\\embarkfin\\embarkfin.api\\embarkfin.api\\obj\\",
+      "outputPath": "E:\\Source\\Repos\\Cloudberry\\embarkfin\\src\\embarkfin.api\\embarkfin.api\\embarkfin.api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
