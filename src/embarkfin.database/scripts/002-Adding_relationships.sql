@@ -1,0 +1,8 @@
+ALTER TABLE Asset
+ADD FOREIGN KEY ([Disposal_ID]) REFERENCES [Disposal](ID);
+
+ALTER TABLE Asset
+ADD FOREIGN KEY ([Location_ID]) REFERENCES [Location](ID);
+	
+ALTER TABLE Asset
+ADD FOREIGN KEY ([Asset_Type_ID]) REFERENCES [Asset_Type](ID);
