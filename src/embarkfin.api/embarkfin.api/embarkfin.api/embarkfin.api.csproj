@@ -6,11 +6,17 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\" />
+    <Folder Include="Domain\" />
+    <Folder Include="Domain\Assets\" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="EntityFramework" Version="6.2.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Remove="Domain\Assets\IAsset.cs" />
+  </ItemGroup>
 </Project>
