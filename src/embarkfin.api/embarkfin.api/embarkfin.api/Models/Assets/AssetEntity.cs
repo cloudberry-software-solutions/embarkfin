@@ -19,5 +19,17 @@ namespace embarkfin.api.Models.Assets
         [Column("Purchase_Price")]
         public double Purchase_Price { get; set; }
 
+        [Column("LocationId")]
+        public int LocationId { get; set; }
+
+        [Column("DisposalId")]
+        public int DisposalId { get; set; }
+
+        [ForeignKey("LocationId")]
+        public DisposalEntity disposal { get; set; }
+
+        [ForeignKey("DisposalId")]
+        public LocationEntity location { get; set; }
+
     }
 }

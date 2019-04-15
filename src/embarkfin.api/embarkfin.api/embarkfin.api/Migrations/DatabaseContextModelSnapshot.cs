@@ -32,6 +32,12 @@ namespace embarkfin.api.Migrations
                     b.Property<DateTime>("Date_Purchased")
                         .HasColumnName("Date_Purchased");
 
+                    b.Property<int>("DisposalId")
+                        .HasColumnName("DisposalId");
+
+                    b.Property<int>("LocationId")
+                        .HasColumnName("LocationId");
+
                     b.Property<long>("Period")
                         .HasColumnName("Period");
 
@@ -46,7 +52,63 @@ namespace embarkfin.api.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("DisposalId");
+
+                    b.HasIndex("LocationId");
+
                     b.ToTable("Asset");
+                });
+
+            modelBuilder.Entity("embarkfin.api.Models.Assets.DisposalEntity", b =>
+                {
+                    b.Property<int>("DisposalEntityId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnName("DisposalId")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<DateTime>("DisposedDate")
+                        .HasColumnName("Disposed_Date");
+
+                    b.Property<double>("DisposedPrice")
+                        .HasColumnName("Disposal_Price");
+
+                    b.HasKey("DisposalEntityId");
+
+                    b.ToTable("Disposal");
+                });
+
+            modelBuilder.Entity("embarkfin.api.Models.Assets.LocationEntity", b =>
+                {
+                    b.Property<int>("LocationEntityId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnName("LocationId")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<DateTime>("DateCaptured")
+                        .HasColumnName("Date_Captured");
+
+                    b.Property<long>("Latitude")
+                        .HasColumnName("Latitude");
+
+                    b.Property<long>("Longitude")
+                        .HasColumnName("Longitude");
+
+                    b.HasKey("LocationEntityId");
+
+                    b.ToTable("Location");
+                });
+
+            modelBuilder.Entity("embarkfin.api.Models.Assets.AssetEntity", b =>
+                {
+                    b.HasOne("embarkfin.api.Models.Assets.LocationEntity", "location")
+                        .WithMany()
+                        .HasForeignKey("DisposalId")
+                        .OnDelete(DeleteBehavior.Cascade);
+
+                    b.HasOne("embarkfin.api.Models.Assets.DisposalEntity", "disposal")
+                        .WithMany()
+                        .HasForeignKey("LocationId")
+                        .OnDelete(DeleteBehavior.Cascade);
                 });
 #pragma warning restore 612, 618
         }
