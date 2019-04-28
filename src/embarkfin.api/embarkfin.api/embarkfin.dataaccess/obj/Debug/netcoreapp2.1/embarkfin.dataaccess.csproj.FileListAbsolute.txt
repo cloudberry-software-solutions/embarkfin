@@ -1,0 +1,11 @@
+/home/shawn/monoWorkspace/cloudberry-software-solutions/embarkfin.git/src/embarkfin.api/embarkfin.api/embarkfin.dataaccess/bin/Debug/netcoreapp2.1/embarkfin.dataaccess.deps.json
+/home/shawn/monoWorkspace/cloudberry-software-solutions/embarkfin.git/src/embarkfin.api/embarkfin.api/embarkfin.dataaccess/bin/Debug/netcoreapp2.1/embarkfin.dataaccess.runtimeconfig.json
+/home/shawn/monoWorkspace/cloudberry-software-solutions/embarkfin.git/src/embarkfin.api/embarkfin.api/embarkfin.dataaccess/bin/Debug/netcoreapp2.1/embarkfin.dataaccess.runtimeconfig.dev.json
+/home/shawn/monoWorkspace/cloudberry-software-solutions/embarkfin.git/src/embarkfin.api/embarkfin.api/embarkfin.dataaccess/bin/Debug/netcoreapp2.1/embarkfin.dataaccess.dll
+/home/shawn/monoWorkspace/cloudberry-software-solutions/embarkfin.git/src/embarkfin.api/embarkfin.api/embarkfin.dataaccess/bin/Debug/netcoreapp2.1/embarkfin.dataaccess.pdb
+/home/shawn/monoWorkspace/cloudberry-software-solutions/embarkfin.git/src/embarkfin.api/embarkfin.api/embarkfin.dataaccess/obj/Debug/netcoreapp2.1/embarkfin.dataaccess.csprojAssemblyReference.cache
+/home/shawn/monoWorkspace/cloudberry-software-solutions/embarkfin.git/src/embarkfin.api/embarkfin.api/embarkfin.dataaccess/obj/Debug/netcoreapp2.1/embarkfin.dataaccess.csproj.CoreCompileInputs.cache
+/home/shawn/monoWorkspace/cloudberry-software-solutions/embarkfin.git/src/embarkfin.api/embarkfin.api/embarkfin.dataaccess/obj/Debug/netcoreapp2.1/embarkfin.dataaccess.AssemblyInfoInputs.cache
+/home/shawn/monoWorkspace/cloudberry-software-solutions/embarkfin.git/src/embarkfin.api/embarkfin.api/embarkfin.dataaccess/obj/Debug/netcoreapp2.1/embarkfin.dataaccess.AssemblyInfo.cs
+/home/shawn/monoWorkspace/cloudberry-software-solutions/embarkfin.git/src/embarkfin.api/embarkfin.api/embarkfin.dataaccess/obj/Debug/netcoreapp2.1/embarkfin.dataaccess.dll
+/home/shawn/monoWorkspace/cloudberry-software-solutions/embarkfin.git/src/embarkfin.api/embarkfin.api/embarkfin.dataaccess/obj/Debug/netcoreapp2.1/embarkfin.dataaccess.pdb

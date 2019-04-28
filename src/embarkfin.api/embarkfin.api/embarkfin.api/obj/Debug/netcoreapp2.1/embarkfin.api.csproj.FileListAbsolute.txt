@@ -1,0 +1,14 @@
+/home/shawn/monoWorkspace/cloudberry-software-solutions/embarkfin.git/src/embarkfin.api/embarkfin.api/embarkfin.api/bin/Debug/netcoreapp2.1/embarkfin.api.deps.json
+/home/shawn/monoWorkspace/cloudberry-software-solutions/embarkfin.git/src/embarkfin.api/embarkfin.api/embarkfin.api/bin/Debug/netcoreapp2.1/embarkfin.api.runtimeconfig.json
+/home/shawn/monoWorkspace/cloudberry-software-solutions/embarkfin.git/src/embarkfin.api/embarkfin.api/embarkfin.api/bin/Debug/netcoreapp2.1/embarkfin.api.runtimeconfig.dev.json
+/home/shawn/monoWorkspace/cloudberry-software-solutions/embarkfin.git/src/embarkfin.api/embarkfin.api/embarkfin.api/bin/Debug/netcoreapp2.1/embarkfin.api.dll
+/home/shawn/monoWorkspace/cloudberry-software-solutions/embarkfin.git/src/embarkfin.api/embarkfin.api/embarkfin.api/bin/Debug/netcoreapp2.1/embarkfin.api.pdb
+/home/shawn/monoWorkspace/cloudberry-software-solutions/embarkfin.git/src/embarkfin.api/embarkfin.api/embarkfin.api/obj/Debug/netcoreapp2.1/embarkfin.api.csprojAssemblyReference.cache
+/home/shawn/monoWorkspace/cloudberry-software-solutions/embarkfin.git/src/embarkfin.api/embarkfin.api/embarkfin.api/obj/Debug/netcoreapp2.1/embarkfin.api.csproj.CoreCompileInputs.cache
+/home/shawn/monoWorkspace/cloudberry-software-solutions/embarkfin.git/src/embarkfin.api/embarkfin.api/embarkfin.api/obj/Debug/netcoreapp2.1/embarkfin.api.RazorAssemblyInfo.cache
+/home/shawn/monoWorkspace/cloudberry-software-solutions/embarkfin.git/src/embarkfin.api/embarkfin.api/embarkfin.api/obj/Debug/netcoreapp2.1/embarkfin.api.RazorAssemblyInfo.cs
+/home/shawn/monoWorkspace/cloudberry-software-solutions/embarkfin.git/src/embarkfin.api/embarkfin.api/embarkfin.api/obj/Debug/netcoreapp2.1/embarkfin.api.AssemblyInfoInputs.cache
+/home/shawn/monoWorkspace/cloudberry-software-solutions/embarkfin.git/src/embarkfin.api/embarkfin.api/embarkfin.api/obj/Debug/netcoreapp2.1/embarkfin.api.AssemblyInfo.cs
+/home/shawn/monoWorkspace/cloudberry-software-solutions/embarkfin.git/src/embarkfin.api/embarkfin.api/embarkfin.api/obj/Debug/netcoreapp2.1/embarkfin.api.RazorTargetAssemblyInfo.cache
+/home/shawn/monoWorkspace/cloudberry-software-solutions/embarkfin.git/src/embarkfin.api/embarkfin.api/embarkfin.api/obj/Debug/netcoreapp2.1/embarkfin.api.dll
+/home/shawn/monoWorkspace/cloudberry-software-solutions/embarkfin.git/src/embarkfin.api/embarkfin.api/embarkfin.api/obj/Debug/netcoreapp2.1/embarkfin.api.pdb

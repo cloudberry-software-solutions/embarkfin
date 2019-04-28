@@ -1,0 +1,11 @@
+/home/shawn/monoWorkspace/cloudberry-software-solutions/embarkfin.git/src/embarkfin.api/embarkfin.api/embarkfin.security/bin/Debug/netcoreapp2.1/embarkfin.security.deps.json
+/home/shawn/monoWorkspace/cloudberry-software-solutions/embarkfin.git/src/embarkfin.api/embarkfin.api/embarkfin.security/bin/Debug/netcoreapp2.1/embarkfin.security.runtimeconfig.json
+/home/shawn/monoWorkspace/cloudberry-software-solutions/embarkfin.git/src/embarkfin.api/embarkfin.api/embarkfin.security/bin/Debug/netcoreapp2.1/embarkfin.security.runtimeconfig.dev.json
+/home/shawn/monoWorkspace/cloudberry-software-solutions/embarkfin.git/src/embarkfin.api/embarkfin.api/embarkfin.security/bin/Debug/netcoreapp2.1/embarkfin.security.dll
+/home/shawn/monoWorkspace/cloudberry-software-solutions/embarkfin.git/src/embarkfin.api/embarkfin.api/embarkfin.security/bin/Debug/netcoreapp2.1/embarkfin.security.pdb
+/home/shawn/monoWorkspace/cloudberry-software-solutions/embarkfin.git/src/embarkfin.api/embarkfin.api/embarkfin.security/obj/Debug/netcoreapp2.1/embarkfin.security.csprojAssemblyReference.cache
+/home/shawn/monoWorkspace/cloudberry-software-solutions/embarkfin.git/src/embarkfin.api/embarkfin.api/embarkfin.security/obj/Debug/netcoreapp2.1/embarkfin.security.csproj.CoreCompileInputs.cache
+/home/shawn/monoWorkspace/cloudberry-software-solutions/embarkfin.git/src/embarkfin.api/embarkfin.api/embarkfin.security/obj/Debug/netcoreapp2.1/embarkfin.security.AssemblyInfoInputs.cache
+/home/shawn/monoWorkspace/cloudberry-software-solutions/embarkfin.git/src/embarkfin.api/embarkfin.api/embarkfin.security/obj/Debug/netcoreapp2.1/embarkfin.security.AssemblyInfo.cs
+/home/shawn/monoWorkspace/cloudberry-software-solutions/embarkfin.git/src/embarkfin.api/embarkfin.api/embarkfin.security/obj/Debug/netcoreapp2.1/embarkfin.security.dll
+/home/shawn/monoWorkspace/cloudberry-software-solutions/embarkfin.git/src/embarkfin.api/embarkfin.api/embarkfin.security/obj/Debug/netcoreapp2.1/embarkfin.security.pdb
