@@ -13,7 +13,5 @@ namespace embarkfin.api.Repositories
 
         }
 
-        
-
     }
 }

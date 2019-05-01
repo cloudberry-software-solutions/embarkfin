@@ -31,5 +31,13 @@ namespace embarkfin.api.Models.Assets
         [ForeignKey("DisposalId")]
         public LocationEntity location { get; set; }
 
+        public AssetEntity(String serialNumber, DateTime datePurchased, long period, double purchasePrice)
+        {
+            this.Serial_Number = serialNumber;
+            this.Date_Purchased = datePurchased;
+            this.Period = period;
+            this.Purchase_Price = purchasePrice;
+        }
+
     }
 }
