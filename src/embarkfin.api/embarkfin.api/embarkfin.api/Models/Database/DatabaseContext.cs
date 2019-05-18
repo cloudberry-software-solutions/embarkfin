@@ -1,6 +1,7 @@
 ﻿#region Using
 using Microsoft.EntityFrameworkCore;
 using embarkfin.api.Models.Assets;
+using embarkfin.api.Models.Login;
 #endregion
 
 namespace embarkfin.api.Models.Database
@@ -12,6 +13,7 @@ namespace embarkfin.api.Models.Database
         }
 
         public DbSet<AssetEntity> Assets { get; set; }
+        public DbSet<LoginEntity> Logins { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

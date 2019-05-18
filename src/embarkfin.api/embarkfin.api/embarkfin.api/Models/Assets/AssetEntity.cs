@@ -8,10 +8,10 @@ namespace embarkfin.api.Models.Assets
     public class AssetEntity : BaseEntity
     {
         [Column("Serial_Number")]
-        public String Serial_Number { get; set; }
+        public String Serial_Number { get; }
 
         [Column("Date_Purchased")]
-        public DateTime Date_Purchased { get; set; }
+        public DateTime Date_Purchased { get; }
 
         [Column("Period")]
         public long Period { get; set; }
@@ -31,12 +31,12 @@ namespace embarkfin.api.Models.Assets
         [ForeignKey("DisposalId")]
         public LocationEntity location { get; set; }
 
-        public AssetEntity(String serialNumber, DateTime datePurchased, long period, double purchasePrice)
+        public AssetEntity(String Serial_Number, DateTime Date_Purchased, long Period, double Purchase_Price)
         {
-            this.Serial_Number = serialNumber;
-            this.Date_Purchased = datePurchased;
-            this.Period = period;
-            this.Purchase_Price = purchasePrice;
+            this.Serial_Number = Serial_Number;
+            this.Date_Purchased = Date_Purchased;
+            this.Period = Period;
+            this.Purchase_Price = Purchase_Price;
         }
 
     }

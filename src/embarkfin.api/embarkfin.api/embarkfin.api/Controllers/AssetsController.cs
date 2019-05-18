@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json.Linq;
+using embarkfin.api.Models.Assets;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -26,9 +28,15 @@ namespace embarkfin.api.Controllers
         }
 
         // POST api/values
-        [HttpPost]
-        public void Post([FromBody]string value)
+        [HttpPost()]
+        [Route("/embarkfin/v1/assets/create")]
+        public String Post([FromBody]String test)
         {
+
+            //refactor when service is created, factory method should not be called in the controller.
+            AssetFactory.createAssetFromJson(test);
+
+            return test;
         }
 
         // PUT api/values/5

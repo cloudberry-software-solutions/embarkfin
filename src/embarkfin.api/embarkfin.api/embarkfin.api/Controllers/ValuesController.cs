@@ -14,7 +14,8 @@ namespace embarkfin.api.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "value1", "value2" };
+            String name = "hello";
+            return new string[] { name, "value2" };
         }
 
         // GET api/values/5
