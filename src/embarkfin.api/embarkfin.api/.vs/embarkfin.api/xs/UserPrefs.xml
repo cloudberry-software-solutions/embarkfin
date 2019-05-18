@@ -1,20 +1,45 @@
 ﻿<Properties StartupConfiguration="{64CC3D19-F12F-443A-8C94-E5A2962EFD9B}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="embarkfin.api/Models/Assets/AssetEntity.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="embarkfin.api/Migrations/scripts to run migration.txt">
     <Files>
-      <File FileName="embarkfin.api/Application/EmbarkfinService.cs" Line="8" Column="10" NotebookId="1" />
-      <File FileName="embarkfin.api/Models/Assets/AssetFactory.cs" Line="8" Column="13" NotebookId="1" />
-      <File FileName="embarkfin.api/Repositories/AssetRepository.cs" Line="13" Column="13" NotebookId="1" />
-      <File FileName="embarkfin.api/Repositories/MasterRepository.cs" Line="1" Column="1" NotebookId="1" />
-      <File FileName="embarkfin.api/Models/Database/DatabaseContext.cs" Line="1" Column="1" NotebookId="1" />
-      <File FileName="embarkfin.api/Models/Database/BaseEntity.cs" Line="6" Column="28" NotebookId="1" />
+      <File FileName="embarkfin.api/Application/EmbarkfinService.cs" Line="10" Column="27" />
+      <File FileName="embarkfin.api/Models/Assets/AssetFactory.cs" Line="19" Column="26" />
+      <File FileName="embarkfin.api/Repositories/AssetRepository.cs" Line="13" Column="21" />
+      <File FileName="embarkfin.api/Repositories/MasterRepository.cs" Line="11" Column="69" />
+      <File FileName="embarkfin.api/Models/Database/DatabaseContext.cs" Line="18" Column="75" />
+      <File FileName="embarkfin.api/Models/Database/BaseEntity.cs" Line="9" Column="23" />
+      <File FileName="embarkfin.api/Models/Assets/AssetEntity.cs" Line="14" Column="46" />
+      <File FileName="embarkfin.api/Models/Login/LoginEntity.cs" Line="17" Column="40" />
+      <File FileName="embarkfin.api/Startup.cs" Line="39" Column="14" />
+      <File FileName="embarkfin.api/appsettings.json" Line="1" Column="1" />
+      <File FileName="embarkfin.api/appsettings.Development.json" Line="1" Column="1" />
+      <File FileName="embarkfin.api/Program.cs" Line="1" Column="1" />
+      <File FileName="embarkfin.api/Controllers/AssetsController.cs" Line="36" Column="53" />
+      <File FileName="embarkfin.api/Models/Assets/DisposalEntity.cs" Line="1" Column="1" />
+      <File FileName="embarkfin.api/Models/Assets/LocationEntity.cs" Line="1" Column="1" />
+      <File FileName="embarkfin.api/Controllers/ValuesController.cs" Line="1" Column="1" />
+      <File FileName="embarkfin.api/Migrations/scripts to run migration.txt" Line="1" Column="1" />
     </Files>
-    <FloatingWindows>
-      <FloatingWindow WindowId="1" X="0" Y="0" Width="1360" Height="740">
-        <Files>
-          <File FileName="embarkfin.api/Models/Assets/AssetEntity.cs" Line="40" Column="10" />
-        </Files>
-      </FloatingWindow>
-    </FloatingWindows>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="embarkfin.api" expanded="True">
+            <Node name="embarkfin.api" expanded="True">
+              <Node name="Application" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Migrations" expanded="True">
+                <Node name="scripts to run migration.txt" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True">
+                <Node name="Assets" expanded="True" />
+                <Node name="Database" expanded="True" />
+                <Node name="Login" expanded="True" />
+              </Node>
+              <Node name="Repositories" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.embarkfin.api PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
@@ -22,7 +47,9 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/home/shawn/monoWorkspace/cloudberry-software-solutions/embarkfin.git/src/embarkfin.api/embarkfin.api/embarkfin.api/Controllers/ValuesController.cs" relfile="embarkfin.api/Controllers/ValuesController.cs" line="37" column="1" />
-      <Breakpoint file="/home/shawn/monoWorkspace/cloudberry-software-solutions/embarkfin.git/src/embarkfin.api/embarkfin.api/embarkfin.api/Controllers/ValuesController.cs" relfile="embarkfin.api/Controllers/ValuesController.cs" line="16" column="1" />
+      <Breakpoint file="/home/shawn/monoWorkspace/cloudberry-software-solutions/embarkfin.git/src/embarkfin.api/embarkfin.api/embarkfin.api/Controllers/AssetsController.cs" relfile="embarkfin.api/Controllers/AssetsController.cs" line="36" column="1" />
+      <Breakpoint file="/home/shawn/monoWorkspace/cloudberry-software-solutions/embarkfin.git/src/embarkfin.api/embarkfin.api/embarkfin.api/Controllers/AssetsController.cs" relfile="embarkfin.api/Controllers/AssetsController.cs" line="33" column="1" />
+      <Breakpoint file="/home/shawn/monoWorkspace/cloudberry-software-solutions/embarkfin.git/src/embarkfin.api/embarkfin.api/embarkfin.api/Controllers/ValuesController.cs" relfile="embarkfin.api/Controllers/ValuesController.cs" line="17" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />

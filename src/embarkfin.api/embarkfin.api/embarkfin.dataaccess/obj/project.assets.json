@@ -698,7 +698,7 @@
       "projectName": "embarkfin.dataaccess",
       "projectPath": "/home/shawn/monoWorkspace/cloudberry-software-solutions/embarkfin.git/src/embarkfin.api/embarkfin.api/embarkfin.dataaccess/embarkfin.dataaccess.csproj",
       "packagesPath": "/home/shawn/.nuget/packages/",
-      "outputPath": "/home/shawn/monoWorkspace/cloudberry-software-solutions/embarkfin.git/src/embarkfin.api/embarkfin.api/embarkfin.dataaccess/obj",
+      "outputPath": "/home/shawn/monoWorkspace/cloudberry-software-solutions/embarkfin.git/src/embarkfin.api/embarkfin.api/embarkfin.dataaccess/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"

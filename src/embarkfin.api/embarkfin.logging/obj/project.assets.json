@@ -698,7 +698,7 @@
       "projectName": "embarkfin.logging",
       "projectPath": "/home/shawn/monoWorkspace/cloudberry-software-solutions/embarkfin.git/src/embarkfin.api/embarkfin.logging/embarkfin.logging.csproj",
       "packagesPath": "/home/shawn/.nuget/packages/",
-      "outputPath": "/home/shawn/monoWorkspace/cloudberry-software-solutions/embarkfin.git/src/embarkfin.api/embarkfin.logging/obj",
+      "outputPath": "/home/shawn/monoWorkspace/cloudberry-software-solutions/embarkfin.git/src/embarkfin.api/embarkfin.logging/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"

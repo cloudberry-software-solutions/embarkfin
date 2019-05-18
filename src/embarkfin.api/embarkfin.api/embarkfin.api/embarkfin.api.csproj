@@ -11,6 +11,8 @@
     <Folder Include="Models\Database\" />
     <Folder Include="Models\Assets\" />
     <Folder Include="Application\" />
+    <Folder Include="Models\Login\" />
+    <Folder Include="New Folder\" />
   </ItemGroup>
 
   <ItemGroup>
