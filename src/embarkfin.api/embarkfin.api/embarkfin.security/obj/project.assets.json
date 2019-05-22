@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/shawn/monoWorkspace/cloudberry-software-solutions/embarkfin.git/src/embarkfin.api/embarkfin.api/embarkfin.security/embarkfin.security.csproj",
+      "projectUniqueName": "/home/shawn/Desktop/Workspace/embarkfin/src/embarkfin.api/embarkfin.api/embarkfin.security/embarkfin.security.csproj",
       "projectName": "embarkfin.security",
-      "projectPath": "/home/shawn/monoWorkspace/cloudberry-software-solutions/embarkfin.git/src/embarkfin.api/embarkfin.api/embarkfin.security/embarkfin.security.csproj",
+      "projectPath": "/home/shawn/Desktop/Workspace/embarkfin/src/embarkfin.api/embarkfin.api/embarkfin.security/embarkfin.security.csproj",
       "packagesPath": "/home/shawn/.nuget/packages/",
-      "outputPath": "/home/shawn/monoWorkspace/cloudberry-software-solutions/embarkfin.git/src/embarkfin.api/embarkfin.api/embarkfin.security/obj/",
+      "outputPath": "/home/shawn/Desktop/Workspace/embarkfin/src/embarkfin.api/embarkfin.api/embarkfin.security/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"

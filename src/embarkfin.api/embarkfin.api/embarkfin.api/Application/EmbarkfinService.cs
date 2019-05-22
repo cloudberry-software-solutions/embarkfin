@@ -7,9 +7,11 @@ namespace embarkfin.api.Application
 {
     public class EmbarkfinService
     {
-        private AssetRepository assetRepository = new AssetRepository(new DbContextOptions<DatabaseContext>);
+        private DatabaseContext Context;
+        
+        private AssetRepository assetRepository;
 
-        public EmbarkfinService()
+        public EmbarkfinService(DatabaseContext context)
         {
         }
     }

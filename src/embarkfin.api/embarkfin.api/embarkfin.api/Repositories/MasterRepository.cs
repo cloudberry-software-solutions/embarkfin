@@ -8,76 +8,59 @@ namespace embarkfin.api.Repositories
 {
     public abstract class MasterRepository<T> where T : BaseEntity
     {
-        private readonly DbContextOptions<DatabaseContext> _options;
+        private DatabaseContext Context { get; }
 
-        public MasterRepository(DbContextOptions<DatabaseContext> options)
+        public MasterRepository(DatabaseContext context)
         {
-            this._options = options;
+            Context = context;
         }
 
         public T GetById(int id)
         {
-            using (var context = Context)
-            {
-                return context.Set<T>().Find(id);
-            }
+           
+                return Context.Set<T>().Find(id);
         }
 
         public List<T> GetAll()
         {
-            using (var context = Context)
-            {
-                return context.Set<T>().ToList();
-            }
+          
+                return Context.Set<T>().ToList();
+
         }
 
         public void Insert(T entity)
         {
-            using (var context = Context)
-            {
+
                 if (entity == null)
                 {
                     throw new ArgumentNullException("entity");
                 }
-                context.Set<T>().Add(entity);
-                context.SaveChanges();
-            }
+                Context.Set<T>().Add(entity);
+                Context.SaveChanges();
+
         }
 
         public void Update(T entity)
         {
-            using (var context = Context)
-            {
                 if (entity == null)
                 {
                     throw new ArgumentNullException("entity");
                 }
-                context.Set<T>().Update(entity);
-                context.SaveChanges();
-            }
+                Context.Set<T>().Update(entity);
+                Context.SaveChanges();
+
         }
 
         public void Delete(T entity)
         {
-            using (var context = Context)
-            {
                 if (entity == null)
                 {
                     throw new ArgumentNullException("entity");
                 }
-                context.Set<T>().Remove(entity);
-                context.SaveChanges();
-            }
+                Context.Set<T>().Remove(entity);
+                Context.SaveChanges();
+
         }
 
-        public DbContextOptions<DatabaseContext> Options
-        {
-            get { return _options; }
-        }
-
-        public DatabaseContext Context
-        {
-            get { return new DatabaseContext(Options); }
-        }
     }
 }

@@ -8,13 +8,9 @@ namespace embarkfin.api.Repositories
 {
     public class AssetRepository : MasterRepository<AssetEntity>
     {
-        public AssetRepository(DbContextOptions<DatabaseContext> options) : base(options)
+        public AssetRepository(DatabaseContext context) : base(context)
         {
-            options.
         }
 
-        public void AddAsset(AssetEntity asset)
-        {
-        }
     }
 }

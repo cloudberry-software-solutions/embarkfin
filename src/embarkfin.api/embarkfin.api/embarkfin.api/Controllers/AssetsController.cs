@@ -5,6 +5,8 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json.Linq;
 using embarkfin.api.Models.Assets;
+using embarkfin.api.Models.Database;
+using embarkfin.api.Repositories;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -13,6 +15,14 @@ namespace embarkfin.api.Controllers
     [Route("embarkfin/v1/assets")]
     public class AssetsController : Controller
     {
+        private DatabaseContext context;
+        private AssetRepository assetRepository;
+
+        public AssetsController(DatabaseContext context)
+        {
+            assetRepository = new AssetRepository(context);
+        }
+
         // GET: api/values
         [HttpGet]
         public IEnumerable<string> Get()
@@ -34,7 +44,7 @@ namespace embarkfin.api.Controllers
         {
 
             //refactor when service is created, factory method should not be called in the controller.
-            AssetFactory.createAssetFromJson(test);
+            assetRepository.Insert(AssetFactory.createAssetFromJson(test));
 
             return test;
         }

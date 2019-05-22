@@ -8,10 +8,10 @@ namespace embarkfin.api.Models.Assets
     public class AssetEntity : BaseEntity
     {
         [Column("Serial_Number")]
-        public String Serial_Number { get; }
+        public String Serial_Number { get; set; }
 
         [Column("Date_Purchased")]
-        public DateTime Date_Purchased { get; }
+        public DateTime Date_Purchased { get; set; }
 
         [Column("Period")]
         public long Period { get; set; }

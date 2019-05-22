@@ -39,7 +39,7 @@ namespace embarkfin.api.Controllers
         [HttpPost]
         public void Post([FromBody] string value)
         {
-            return new Object { Token: "gfhdfhfdfghjffghdg" };
+          //  return new Object { "Token: gfhdfhfdfghjffghdg" };
         }
 
         // PUT: api/Auth/5
