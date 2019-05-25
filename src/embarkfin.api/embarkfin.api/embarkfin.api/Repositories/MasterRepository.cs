@@ -8,7 +8,7 @@ namespace embarkfin.api.Repositories
 {
     public abstract class MasterRepository<T> where T : BaseEntity
     {
-        private DatabaseContext Context { get; }
+        protected DatabaseContext Context { get; }
 
         public MasterRepository(DatabaseContext context)
         {
@@ -35,6 +35,7 @@ namespace embarkfin.api.Repositories
                 {
                     throw new ArgumentNullException("entity");
                 }
+                entity.CreatedAt = DateTime.Now;
                 Context.Set<T>().Add(entity);
                 Context.SaveChanges();
 
@@ -46,6 +47,7 @@ namespace embarkfin.api.Repositories
                 {
                     throw new ArgumentNullException("entity");
                 }
+                entity.UpdatedAt = DateTime.Now;
                 Context.Set<T>().Update(entity);
                 Context.SaveChanges();
 

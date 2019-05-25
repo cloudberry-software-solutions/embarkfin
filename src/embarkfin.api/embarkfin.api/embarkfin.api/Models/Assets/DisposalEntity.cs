@@ -5,7 +5,7 @@ using System;
 namespace embarkfin.api.Models.Assets
 {
     [Table("Disposal")]
-    public class DisposalEntity
+    public class DisposalEntity : BaseEntity
     {
 
         [Column("DisposalId")]

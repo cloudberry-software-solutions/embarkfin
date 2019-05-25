@@ -4,7 +4,7 @@ using System;
 namespace embarkfin.api.Models.Assets
 {
     [Table("Location")]
-    public class LocationEntity
+    public class LocationEntity : BaseEntity
     {
         [Column("LocationId")]
         public int LocationEntityId { get; set; }

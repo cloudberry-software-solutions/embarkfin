@@ -12,5 +12,13 @@ namespace embarkfin.api.Repositories
         {
         }
 
+        public AssetEntity GetByRefNumber(String reference)
+        {
+                return Context.Assets
+                .Where(a => a.Serial_Number == reference)
+                .Select(a => a)
+                .Single();
+        }
+
     }
 }

@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace embarkfin.api.Models.Database
 {
-    public class BaseEntity
+    public abstract class BaseEntity
     {
 
         [Column("id")]
@@ -13,6 +13,7 @@ namespace embarkfin.api.Models.Database
         public DateTime CreatedAt { get; set; }
 
         [Column("updated_at")]
-        public DateTime UpdatedAt { get; set; }
+        public DateTime UpdatedAt { get; set; } = DateTime.Now;
+
     }
 }

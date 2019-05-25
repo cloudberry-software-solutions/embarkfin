@@ -13,6 +13,9 @@ namespace embarkfin.api.Models.Database
         }
 
         public DbSet<AssetEntity> Assets { get; set; }
+        public DbSet<DisposalEntity> Disposals {get; set;}
+
+        public DbSet<LocationEntity> Locations {get; set;}
         public DbSet<LoginEntity> Logins { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

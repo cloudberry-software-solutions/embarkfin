@@ -29,19 +29,19 @@ namespace embarkfin.api.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnName("created_at");
 
-                    b.Property<DateTime>("Date_Purchased")
+                    b.Property<DateTime?>("Date_Purchased")
                         .HasColumnName("Date_Purchased");
 
-                    b.Property<int>("DisposalId")
+                    b.Property<int?>("DisposalId")
                         .HasColumnName("DisposalId");
 
-                    b.Property<int>("LocationId")
+                    b.Property<int?>("LocationId")
                         .HasColumnName("LocationId");
 
-                    b.Property<long>("Period")
+                    b.Property<long?>("Period")
                         .HasColumnName("Period");
 
-                    b.Property<double>("Purchase_Price")
+                    b.Property<double?>("Purchase_Price")
                         .HasColumnName("Purchase_Price");
 
                     b.Property<string>("Serial_Number")
@@ -124,15 +124,13 @@ namespace embarkfin.api.Migrations
 
             modelBuilder.Entity("embarkfin.api.Models.Assets.AssetEntity", b =>
                 {
-                    b.HasOne("embarkfin.api.Models.Assets.LocationEntity", "location")
+                    b.HasOne("embarkfin.api.Models.Assets.DisposalEntity", "Disposal")
                         .WithMany()
-                        .HasForeignKey("DisposalId")
-                        .OnDelete(DeleteBehavior.Cascade);
+                        .HasForeignKey("DisposalId");
 
-                    b.HasOne("embarkfin.api.Models.Assets.DisposalEntity", "disposal")
+                    b.HasOne("embarkfin.api.Models.Assets.LocationEntity", "Location")
                         .WithMany()
-                        .HasForeignKey("LocationId")
-                        .OnDelete(DeleteBehavior.Cascade);
+                        .HasForeignKey("LocationId");
                 });
 #pragma warning restore 612, 618
         }

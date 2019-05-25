@@ -8,35 +8,46 @@ namespace embarkfin.api.Models.Assets
     public class AssetEntity : BaseEntity
     {
         [Column("Serial_Number")]
-        public String Serial_Number { get; set; }
+        public String Serial_Number { get; set; } 
 
         [Column("Date_Purchased")]
-        public DateTime Date_Purchased { get; set; }
+        public System.Nullable<DateTime> Date_Purchased { get; set; }
 
         [Column("Period")]
-        public long Period { get; set; }
+        
+        public System.Nullable<long> Period { get; set; }
 
         [Column("Purchase_Price")]
-        public double Purchase_Price { get; set; }
-
-        [Column("LocationId")]
-        public int LocationId { get; set; }
+        public System.Nullable<double> Purchase_Price { get; set; }
 
         [Column("DisposalId")]
-        public int DisposalId { get; set; }
+        public System.Nullable<int> DisposalId{get; set;}
 
-        [ForeignKey("LocationId")]
-        public DisposalEntity disposal { get; set; }
+        [Column("LocationId")]
+        public System.Nullable<int> LocationId{get;set;}
+
 
         [ForeignKey("DisposalId")]
-        public LocationEntity location { get; set; }
+        public DisposalEntity Disposal { get; set; }
 
-        public AssetEntity(String Serial_Number, DateTime Date_Purchased, long Period, double Purchase_Price)
+        [ForeignKey("LocationId")]
+        public LocationEntity Location { get; set; }
+
+        public AssetEntity(String Serial_Number, System.Nullable<DateTime> Date_Purchased, System.Nullable<long> Period, System.Nullable<double> Purchase_Price)
         {
             this.Serial_Number = Serial_Number;
             this.Date_Purchased = Date_Purchased;
             this.Period = Period;
             this.Purchase_Price = Purchase_Price;
+
+        }
+
+        public override String ToString()
+        {
+            return "Updated: "+this.UpdatedAt.ToString()+
+             "Created:"+ this.CreatedAt.ToString()+
+             "Serial_Number: " + this.Serial_Number.ToString()+
+             "Purhcase: " + this.Purchase_Price.ToString();
         }
 
     }

@@ -31,10 +31,10 @@ namespace embarkfin.api.Controllers
         }
 
         // GET api/values/5
-        [HttpGet("{id}")]
-        public string Get(int id)
+        [HttpGet("{Serial_Number}")]
+        public string Get(String Serial_Number)
         {
-            return "value";
+            return assetRepository.GetByRefNumber(Serial_Number).ToString();
         }
 
         // POST api/values
