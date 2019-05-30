@@ -6,13 +6,17 @@ using Microsoft.EntityFrameworkCore;
 namespace embarkfin.api.Application
 {
     public class EmbarkfinService
-    {
-        private DatabaseContext Context;
-        
+    {        
         private AssetRepository assetRepository;
 
-        public EmbarkfinService(DatabaseContext context)
+        public EmbarkfinService(AssetRepository assetRepository)
         {
+            this.assetRepository = assetRepository;
+        }
+
+        public byte[] createBarcode(String embeddedValue)
+        {
+            return new byte[]{};
         }
     }
 }

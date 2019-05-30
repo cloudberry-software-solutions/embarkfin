@@ -12,6 +12,8 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using embarkfin.api.Models.Database;
 using Microsoft.EntityFrameworkCore;
+using embarkfin.api.Repositories;
+using embarkfin.api.Application;
 
 namespace embarkfin.api
 {
@@ -31,6 +33,8 @@ namespace embarkfin.api
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             services.AddDbContext<DatabaseContext>(options => options.UseSqlServer("Server=localhost; Database=Embarkfin; User Id = sa; Password= P@ssword1"));
             services.AddScoped<DatabaseContext>();
+            services.AddScoped<AssetRepository>();
+            services.AddScoped<EmbarkfinService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
