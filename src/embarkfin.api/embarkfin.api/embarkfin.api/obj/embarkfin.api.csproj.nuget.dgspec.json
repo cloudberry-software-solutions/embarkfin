@@ -76,6 +76,10 @@
               "target": "Package",
               "version": "[12.0.1, )"
             },
+            "System.Drawing-dotnet-core": {
+              "target": "Package",
+              "version": "[1.2.3, )"
+            },
             "ZXing.Net": {
               "target": "Package",
               "version": "[0.16.4, )"

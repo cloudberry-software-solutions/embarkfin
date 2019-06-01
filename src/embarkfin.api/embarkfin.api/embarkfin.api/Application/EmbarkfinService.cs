@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using ZXing;
 using ZXing.QrCode;
 using ZXing.Common;
+using ZXing.Datamatrix;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Drawing.Imaging;
@@ -24,11 +25,12 @@ namespace embarkfin.api.Application
 
         public String createBarcode(String embeddedValue)
         {
-            QRCodeWriter writer = new QRCodeWriter();
-            QRCodeReader reader = new QRCodeReader();
-            
+            QRCodeWriter writer = new QRCodeWriter();    
+            QRCodeReader reader = new QRCodeReader();        
 
             BitMatrix code = writer.encode(embeddedValue,BarcodeFormat.QR_CODE,100,100);
+
+
             return code.ToString() ;
         }
     }
