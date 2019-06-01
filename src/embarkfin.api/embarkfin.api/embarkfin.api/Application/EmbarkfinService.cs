@@ -2,7 +2,15 @@
 using embarkfin.api.Models.Database;
 using embarkfin.api.Repositories;
 using Microsoft.EntityFrameworkCore;
-
+using ZXing;
+using ZXing.QrCode;
+using ZXing.Common;
+using System.Collections.Generic;
+using System.Drawing;
+using System.Drawing.Imaging;
+using System.IO;
+using System.Linq;
+using System.Web;
 namespace embarkfin.api.Application
 {
     public class EmbarkfinService
@@ -14,9 +22,14 @@ namespace embarkfin.api.Application
             this.assetRepository = assetRepository;
         }
 
-        public byte[] createBarcode(String embeddedValue)
+        public String createBarcode(String embeddedValue)
         {
-            return new byte[]{};
+            QRCodeWriter writer = new QRCodeWriter();
+            QRCodeReader reader = new QRCodeReader();
+            
+
+            BitMatrix code = writer.encode(embeddedValue,BarcodeFormat.QR_CODE,100,100);
+            return code.ToString() ;
         }
     }
 }

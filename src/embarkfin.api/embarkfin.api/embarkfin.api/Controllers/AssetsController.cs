@@ -7,6 +7,9 @@ using Newtonsoft.Json.Linq;
 using embarkfin.api.Models.Assets;
 using embarkfin.api.Models.Database;
 using embarkfin.api.Repositories;
+using embarkfin.api.Application;
+using ZXing.Common;
+
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -18,8 +21,11 @@ namespace embarkfin.api.Controllers
         private DatabaseContext context;
         private AssetRepository assetRepository;
 
-        public AssetsController(DatabaseContext context)
+        private EmbarkfinService embarkfinService;
+
+        public AssetsController(DatabaseContext context, EmbarkfinService embarkfinService)
         {
+            this.embarkfinService = embarkfinService;
             assetRepository = new AssetRepository(context);
         }
 
@@ -32,9 +38,9 @@ namespace embarkfin.api.Controllers
 
         // GET api/values/5
         [HttpGet("{Serial_Number}")]
-        public string Get(String Serial_Number)
+        public String Get(String Serial_Number)
         {
-            return assetRepository.GetByRefNumber(Serial_Number).ToString();
+            return embarkfinService.createBarcode(Serial_Number);
         }
 
         // POST api/values
