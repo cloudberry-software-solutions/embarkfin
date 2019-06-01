@@ -39,9 +39,16 @@ namespace embarkfin.api.Controllers
 
         // GET api/values/5
         [HttpGet("{Serial_Number}")]
-        public String Get(String Serial_Number)
+        public AssetEntity Get(String Serial_Number)
         {
-            return embarkfinService.createBarcode(Serial_Number);
+            return assetRepository.GetByRefNumber(Serial_Number);
+        }
+
+        [HttpGet()]
+        [Route("/embarkfin/v1/assets/getAll")]
+        public List<AssetEntity> getAssets()
+        {
+            return assetRepository.GetAll();
         }
 
         // POST api/values
@@ -67,6 +74,7 @@ namespace embarkfin.api.Controllers
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
+            assetRepository.Delete(assetRepository.GetById(id));
         }
     }
 }
