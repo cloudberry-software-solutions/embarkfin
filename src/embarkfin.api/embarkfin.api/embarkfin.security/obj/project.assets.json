@@ -688,28 +688,33 @@
     ]
   },
   "packageFolders": {
-    "/home/shawn/.nuget/packages/": {},
-    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\makar\\.nuget\\packages\\": {},
+    "C:\\ProgramData\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/shawn/Desktop/Workspace/embarkfin/src/embarkfin.api/embarkfin.api/embarkfin.security/embarkfin.security.csproj",
+      "projectUniqueName": "E:\\Source\\Repos\\Cloudberry\\embarkfin\\src\\embarkfin.api\\embarkfin.api\\embarkfin.security\\embarkfin.security.csproj",
       "projectName": "embarkfin.security",
-      "projectPath": "/home/shawn/Desktop/Workspace/embarkfin/src/embarkfin.api/embarkfin.api/embarkfin.security/embarkfin.security.csproj",
-      "packagesPath": "/home/shawn/.nuget/packages/",
-      "outputPath": "/home/shawn/Desktop/Workspace/embarkfin/src/embarkfin.api/embarkfin.api/embarkfin.security/obj/",
+      "projectPath": "E:\\Source\\Repos\\Cloudberry\\embarkfin\\src\\embarkfin.api\\embarkfin.api\\embarkfin.security\\embarkfin.security.csproj",
+      "packagesPath": "C:\\Users\\makar\\.nuget\\packages\\",
+      "outputPath": "E:\\Source\\Repos\\Cloudberry\\embarkfin\\src\\embarkfin.api\\embarkfin.api\\embarkfin.security\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\ProgramData\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/home/shawn/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\makar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -727,7 +732,6 @@
       "netcoreapp2.1": {
         "dependencies": {
           "Microsoft.NETCore.App": {
-            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true

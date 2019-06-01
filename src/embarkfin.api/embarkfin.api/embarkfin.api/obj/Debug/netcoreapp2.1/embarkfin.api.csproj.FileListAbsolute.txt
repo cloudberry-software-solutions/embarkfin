@@ -12,3 +12,16 @@
 /home/shawn/Desktop/Workspace/embarkfin/src/embarkfin.api/embarkfin.api/embarkfin.api/bin/Debug/netcoreapp2.1/embarkfin.api.runtimeconfig.dev.json
 /home/shawn/Desktop/Workspace/embarkfin/src/embarkfin.api/embarkfin.api/embarkfin.api/bin/Debug/netcoreapp2.1/embarkfin.api.dll
 /home/shawn/Desktop/Workspace/embarkfin/src/embarkfin.api/embarkfin.api/embarkfin.api/bin/Debug/netcoreapp2.1/embarkfin.api.pdb
+E:\Source\Repos\Cloudberry\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.api\bin\Debug\netcoreapp2.1\embarkfin.api.deps.json
+E:\Source\Repos\Cloudberry\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.api\bin\Debug\netcoreapp2.1\embarkfin.api.runtimeconfig.json
+E:\Source\Repos\Cloudberry\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.api\bin\Debug\netcoreapp2.1\embarkfin.api.runtimeconfig.dev.json
+E:\Source\Repos\Cloudberry\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.api\bin\Debug\netcoreapp2.1\embarkfin.api.dll
+E:\Source\Repos\Cloudberry\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.api\bin\Debug\netcoreapp2.1\embarkfin.api.pdb
+E:\Source\Repos\Cloudberry\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.api\obj\Debug\netcoreapp2.1\embarkfin.api.csproj.CoreCompileInputs.cache
+E:\Source\Repos\Cloudberry\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.api\obj\Debug\netcoreapp2.1\embarkfin.api.RazorAssemblyInfo.cache
+E:\Source\Repos\Cloudberry\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.api\obj\Debug\netcoreapp2.1\embarkfin.api.RazorAssemblyInfo.cs
+E:\Source\Repos\Cloudberry\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.api\obj\Debug\netcoreapp2.1\embarkfin.api.AssemblyInfoInputs.cache
+E:\Source\Repos\Cloudberry\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.api\obj\Debug\netcoreapp2.1\embarkfin.api.AssemblyInfo.cs
+E:\Source\Repos\Cloudberry\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.api\obj\Debug\netcoreapp2.1\embarkfin.api.RazorTargetAssemblyInfo.cache
+E:\Source\Repos\Cloudberry\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.api\obj\Debug\netcoreapp2.1\embarkfin.api.dll
+E:\Source\Repos\Cloudberry\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.api\obj\Debug\netcoreapp2.1\embarkfin.api.pdb

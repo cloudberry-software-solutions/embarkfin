@@ -9,6 +9,7 @@ using embarkfin.api.Models.Database;
 using embarkfin.api.Repositories;
 using embarkfin.api.Application;
 using ZXing.Common;
+using Microsoft.AspNetCore.Cors;
 
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -44,15 +45,16 @@ namespace embarkfin.api.Controllers
         }
 
         // POST api/values
+        [EnableCors("CorsPolicy")]
         [HttpPost()]
         [Route("/embarkfin/v1/assets/create")]
-        public String Post([FromBody]String test)
+        public string Post(AssetEntity test)
         {
 
             //refactor when service is created, factory method should not be called in the controller.
-            assetRepository.Insert(AssetFactory.createAssetFromJson(test));
+            assetRepository.Insert(test);
 
-            return test;
+            return "Success";
         }
 
         // PUT api/values/5
