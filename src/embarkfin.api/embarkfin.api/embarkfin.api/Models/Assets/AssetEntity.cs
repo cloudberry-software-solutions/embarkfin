@@ -4,6 +4,7 @@ using System;
 
 namespace embarkfin.api.Models.Assets
 {
+    [Serializable]
     [Table("Asset")]
     public class AssetEntity : BaseEntity
     {
@@ -40,14 +41,6 @@ namespace embarkfin.api.Models.Assets
             this.Period = Period;
             this.Purchase_Price = Purchase_Price;
 
-        }
-
-        public override String ToString()
-        {
-            return "Updated: "+this.UpdatedAt.ToString()+
-             "Created:"+ this.CreatedAt.ToString()+
-             "Serial_Number: " + this.Serial_Number.ToString()+
-             "Purhcase: " + this.Purchase_Price.ToString();
         }
 
     }

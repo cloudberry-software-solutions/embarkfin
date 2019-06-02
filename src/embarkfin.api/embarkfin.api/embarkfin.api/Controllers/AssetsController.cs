@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using System.Web;
 using Newtonsoft.Json.Linq;
 using embarkfin.api.Models.Assets;
 using embarkfin.api.Models.Database;
@@ -10,6 +11,7 @@ using embarkfin.api.Repositories;
 using embarkfin.api.Application;
 using ZXing.Common;
 using Microsoft.AspNetCore.Cors;
+using Microsoft.AspNetCore.Http;
 
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -17,7 +19,8 @@ using Microsoft.AspNetCore.Cors;
 namespace embarkfin.api.Controllers
 {
     [Route("embarkfin/v1/assets")]
-    public class AssetsController : Controller
+    [ApiController]
+    public class AssetsController : ControllerBase
     {
         private DatabaseContext context;
         private AssetRepository assetRepository;
@@ -53,15 +56,17 @@ namespace embarkfin.api.Controllers
 
         // POST api/values
         [EnableCors("CorsPolicy")]
-        [HttpPost()]
+        [HttpPost]
         [Route("/embarkfin/v1/assets/create")]
-        public string Post(AssetEntity test)
+        [ProducesResponseType(StatusCodes.Status201Created)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public ActionResult<AssetEntity> Post(AssetEntity asset)
         {
-
             //refactor when service is created, factory method should not be called in the controller.
-            assetRepository.Insert(test);
+            assetRepository.Insert(asset);
 
-            return "Success";
+                return CreatedAtAction(nameof(asset.Id),
+                        new { id = asset.Id }, asset);
         }
 
         // PUT api/values/5

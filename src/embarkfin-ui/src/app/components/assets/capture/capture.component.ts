@@ -20,7 +20,7 @@ export class CaptureComponent implements OnInit {
     console.log(this.serialNumber);
 
     const asset = new AssetModel();
-    asset.serialNumber = this.serialNumber;
+    asset.Serial_Number = this.serialNumber;
 
     const x = await this.assetService.submit(asset).toPromise();
   }
