@@ -10,6 +10,10 @@ import { Component, OnInit } from '@angular/core';
 export class CaptureComponent implements OnInit {
 
   serialNumber = '';
+  period = 0;
+  purchasePrice = 0;
+
+  assets;
 
   constructor(private assetService: AssetServiceService) { }
 
@@ -21,8 +25,12 @@ export class CaptureComponent implements OnInit {
 
     const asset = new AssetModel();
     asset.Serial_Number = this.serialNumber;
+    asset.Period = this.period;
+    asset.Purchase_Price = this.purchasePrice;
 
-    const x = await this.assetService.submit(asset).toPromise();
+    const x = this.assetService.submit(asset).toPromise();
+
+    this.assetService.getAllAssets();
   }
 
 }

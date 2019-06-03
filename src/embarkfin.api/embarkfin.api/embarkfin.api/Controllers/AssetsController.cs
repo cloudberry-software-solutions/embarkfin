@@ -47,9 +47,9 @@ namespace embarkfin.api.Controllers
             return assetRepository.GetByRefNumber(Serial_Number);
         }
 
-        [HttpGet()]
+        [HttpGet]
         [Route("/embarkfin/v1/assets/getAll")]
-        public List<AssetEntity> getAssets()
+        public ActionResult<List<AssetEntity>> getAssets()
         {
             return assetRepository.GetAll();
         }
