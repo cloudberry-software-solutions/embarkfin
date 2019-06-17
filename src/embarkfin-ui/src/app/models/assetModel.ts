@@ -1,8 +1,8 @@
 export class AssetModel {
-    serialNumber: string;
+    Serial_Number: string;
     // tslint:disable-next-line:variable-name
-    date_Purchased: Date;
-    period: number;
+    Date_Purchased: Date;
+    Period: number;
     // tslint:disable-next-line:variable-name
-    purchase_Price: number;
+    Purchase_Price: number;
 }
