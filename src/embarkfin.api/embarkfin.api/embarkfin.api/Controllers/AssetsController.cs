@@ -10,6 +10,7 @@ using embarkfin.api.Repositories;
 using embarkfin.api.Application;
 using ZXing.Common;
 using Microsoft.AspNetCore.Cors;
+using embarkfin.api.Models.Api;
 
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -17,6 +18,7 @@ using Microsoft.AspNetCore.Cors;
 namespace embarkfin.api.Controllers
 {
     [Route("embarkfin/v1/assets")]
+    [ApiController]
     public class AssetsController : Controller
     {
         private DatabaseContext context;
@@ -44,6 +46,7 @@ namespace embarkfin.api.Controllers
             return assetRepository.GetByRefNumber(Serial_Number);
         }
 
+        [EnableCors("CorsPolicy")]
         [HttpGet()]
         [Route("/embarkfin/v1/assets/getAll")]
         public List<AssetEntity> getAssets()
@@ -55,13 +58,30 @@ namespace embarkfin.api.Controllers
         [EnableCors("CorsPolicy")]
         [HttpPost()]
         [Route("/embarkfin/v1/assets/create")]
-        public string Post(AssetEntity test)
+        public ApiResponse Post(AssetEntity test)
         {
+            try
+            {
+                //refactor when service is created, factory method should not be called in the controller.
+                assetRepository.Insert(test);
 
-            //refactor when service is created, factory method should not be called in the controller.
-            assetRepository.Insert(test);
-
-            return "Success";
+                return new ApiResponse
+                {
+                    HttpStatusCode = 200,
+                    Result = "Asset save successful",
+                    HasError = false
+                }; 
+            }
+            catch( Exception e)
+            {
+                return new ApiResponse
+                {
+                    HttpStatusCode = 500,
+                    Result = "Asset save failed",
+                    HasError = false,
+                    ErrorMessages = new List<string> { e.Message }
+                };
+            }
         }
 
         // PUT api/values/5

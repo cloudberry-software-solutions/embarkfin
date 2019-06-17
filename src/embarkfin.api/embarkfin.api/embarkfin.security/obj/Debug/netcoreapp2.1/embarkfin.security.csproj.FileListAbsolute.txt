@@ -9,3 +9,14 @@
 /home/shawn/monoWorkspace/cloudberry-software-solutions/embarkfin.git/src/embarkfin.api/embarkfin.api/embarkfin.security/obj/Debug/netcoreapp2.1/embarkfin.security.AssemblyInfo.cs
 /home/shawn/monoWorkspace/cloudberry-software-solutions/embarkfin.git/src/embarkfin.api/embarkfin.api/embarkfin.security/obj/Debug/netcoreapp2.1/embarkfin.security.dll
 /home/shawn/monoWorkspace/cloudberry-software-solutions/embarkfin.git/src/embarkfin.api/embarkfin.api/embarkfin.security/obj/Debug/netcoreapp2.1/embarkfin.security.pdb
+E:\Source\Repos\Cloudberry\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.security\bin\Debug\netcoreapp2.1\embarkfin.security.deps.json
+E:\Source\Repos\Cloudberry\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.security\bin\Debug\netcoreapp2.1\embarkfin.security.runtimeconfig.json
+E:\Source\Repos\Cloudberry\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.security\bin\Debug\netcoreapp2.1\embarkfin.security.runtimeconfig.dev.json
+E:\Source\Repos\Cloudberry\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.security\bin\Debug\netcoreapp2.1\embarkfin.security.dll
+E:\Source\Repos\Cloudberry\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.security\bin\Debug\netcoreapp2.1\embarkfin.security.pdb
+E:\Source\Repos\Cloudberry\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.security\obj\Debug\netcoreapp2.1\embarkfin.security.csproj.CoreCompileInputs.cache
+E:\Source\Repos\Cloudberry\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.security\obj\Debug\netcoreapp2.1\embarkfin.security.AssemblyInfoInputs.cache
+E:\Source\Repos\Cloudberry\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.security\obj\Debug\netcoreapp2.1\embarkfin.security.AssemblyInfo.cs
+E:\Source\Repos\Cloudberry\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.security\obj\Debug\netcoreapp2.1\embarkfin.security.dll
+E:\Source\Repos\Cloudberry\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.security\obj\Debug\netcoreapp2.1\embarkfin.security.pdb
+E:\Source\Repos\Cloudberry\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.security\obj\Debug\netcoreapp2.1\embarkfin.security.csprojAssemblyReference.cache

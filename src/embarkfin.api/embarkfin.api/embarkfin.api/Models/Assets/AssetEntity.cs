@@ -42,13 +42,13 @@ namespace embarkfin.api.Models.Assets
 
         }
 
-        public override String ToString()
+        /*public override String ToString()
         {
             return "Updated: "+this.UpdatedAt.ToString()+
              "Created:"+ this.CreatedAt.ToString()+
              "Serial_Number: " + this.Serial_Number.ToString()+
              "Purhcase: " + this.Purchase_Price.ToString();
-        }
+        }*/
 
     }
 }

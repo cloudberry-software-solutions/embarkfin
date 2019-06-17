@@ -25,3 +25,4 @@ E:\Source\Repos\Cloudberry\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.a
 E:\Source\Repos\Cloudberry\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.api\obj\Debug\netcoreapp2.1\embarkfin.api.RazorTargetAssemblyInfo.cache
 E:\Source\Repos\Cloudberry\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.api\obj\Debug\netcoreapp2.1\embarkfin.api.dll
 E:\Source\Repos\Cloudberry\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.api\obj\Debug\netcoreapp2.1\embarkfin.api.pdb
+E:\Source\Repos\Cloudberry\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.api\obj\Debug\netcoreapp2.1\embarkfin.api.csprojAssemblyReference.cache
