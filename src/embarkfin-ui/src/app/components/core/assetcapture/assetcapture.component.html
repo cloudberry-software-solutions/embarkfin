@@ -1,0 +1,45 @@
+<mat-card class="capture-card">
+  <mat-card-header>
+    <mat-card-title class="mat-card-title" >Capture an Asset</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <form class="capture-form">
+      <table class="capture-full-width" cellspacing="0">
+        <tr>
+          <td>
+            <mat-form-field class="example-full-width">
+            <input matInput placeholder="Serial Number" [(ngModel)]="serialNumber" name="serialNumber" required>
+            </mat-form-field>
+          </td>
+        </tr>
+        <tr>
+        <td>
+            <mat-form-field class="example-full-width">
+                <input matInput [matDatepicker]="picker" placeholder="Date of Purchase" [(ngModel)]="dateOfPurchase" name="dateOfPurchase">
+                <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                <mat-datepicker #picker></mat-datepicker>
+              </mat-form-field>
+      </td>
+      </tr>
+      <tr>
+          <td>
+            <mat-form-field class="example-full-width">
+            <input matInput placeholder="Period" [(ngModel)]="period" name="period" type="number" required>
+            </mat-form-field>
+          </td>
+        </tr>
+        <tr>
+            <td>
+              <mat-form-field class="example-full-width">
+              <input matInput placeholder="Purchase Price" [(ngModel)]="purchasePrice" name="purchasePrice" type="" required>
+              </mat-form-field>
+            </td>
+          </tr>
+    </table>
+    </form>
+    <mat-spinner [style.display]="showSpinner ? 'block' : 'none'"></mat-spinner>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-raised-button (click)="submit()" color="primary">Submit</button>
+  </mat-card-actions>
+</mat-card>

@@ -1,14 +1,8 @@
-@import '~@nebular/auth/styles/all';
-@import 'themes';
-@import '~@nebular/theme/styles/globals';
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
 
-@include nb-install() {
-  @include nb-theme-global();
-};
 
-@include nb-install() {
-  @include nb-theme-global();
-  @include nb-auth-global(); // append the install mixin inside of the nb-install
-};
-
-/* You can add global styles to this file, and also import other style files */
+.example-fill-remaining-space {
+  // This fills the remaining space, by using flexbox. 
+  // Every toolbar row uses a flexbox row layout.
+  flex: 1 1 auto;
+}
