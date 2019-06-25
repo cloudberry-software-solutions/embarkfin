@@ -2,6 +2,20 @@
     width: 400px;
     margin: 10% auto;
     }
-    .mat-card-title{
+    
+.mat-card-title{
     font-size: 16px;
-    }
+}
+
+mat-card {
+    max-width: 400px;
+    margin: 2em auto;
+    text-align: center;
+  }
+  .signin-content {
+    padding: 60px 1rem;
+  }
+  .full-width-input {
+    width: 100%;
+  }
+  

@@ -1,4 +1,4 @@
-import { AssetModel } from './../../../models/assetModel';
+import { Asset } from '../../../models/asset';
 import { AssetService } from './../../../services/asset.service';
 import { Component, OnInit } from '@angular/core';
 
@@ -21,7 +21,7 @@ export class AssetcaptureComponent implements OnInit {
   }
 
   async submit() {
-    const asset  = new AssetModel( this.serialNumber, this.dateOfPurchase, this.period, this.purchasePrice);
+    const asset  = new Asset( this.serialNumber, this.dateOfPurchase, this.period, this.purchasePrice);
     const result = await this.assetService.saveAsset(asset).toPromise();
     console.log(result);
   }

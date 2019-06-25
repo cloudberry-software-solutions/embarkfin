@@ -2,11 +2,13 @@ import { LoginComponent } from './components/authentication/login/login.componen
 import { AssetcaptureComponent } from './components/core/assetcapture/assetcapture.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { AuthGuard } from './authguard';
 
 const routes: Routes = [
-  {path: 'assetcapture', component: AssetcaptureComponent},
+  {path: 'assetcapture', component: AssetcaptureComponent, canActivate: [AuthGuard]},
   {path: 'login', component: LoginComponent},
-  {path : '', component : LoginComponent}
+  {path : '', component : LoginComponent},
+  {path: '**', component: LoginComponent}
 ];
 
 @NgModule({
