@@ -1,4 +1,4 @@
-import { AssetModel } from './../models/assetModel';
+import { Asset } from '../models/asset';
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 
@@ -11,7 +11,7 @@ export class AssetService {
 
   calcUrl = 'https://localhost:44381/embarkfin/v1/assets/create';
 
-  saveAsset(asset: AssetModel) {
+  saveAsset(asset: Asset) {
     return this.http.post(this.calcUrl, asset);
   }
 }

@@ -1,6 +1,7 @@
+import { AuthenticationService } from './../../../services/authentication.service';
 import { Component, OnInit } from '@angular/core';
-import {Router} from '@angular/router';
-import {MatDialog} from '@angular/material';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+
 
 @Component({
   selector: 'app-login',
@@ -8,18 +9,32 @@ import {MatDialog} from '@angular/material';
   styleUrls: ['./login.component.scss']
 })
 export class LoginComponent implements OnInit {
-  constructor(private router: Router) { }
-  username: string;
-  password: string;
+  form: FormGroup;
+  private formSubmitAttempt: boolean;
+
+  constructor(
+    private fb: FormBuilder,
+    private authService: AuthenticationService
+  ) {}
 
   ngOnInit() {
+    this.form = this.fb.group({
+      userName: ['', Validators.required],
+      password: ['', Validators.required]
+    });
   }
 
-  login(): void {
-    if (this.username === 'admin' && this.password === 'admin') {
-      this.router.navigate(['assetcapture']);
-    } else {
-      alert('Invalid credentials');
+  isFieldInvalid(field: string) {
+    return (
+      (!this.form.get(field).valid && this.form.get(field).touched) ||
+      (this.form.get(field).untouched && this.formSubmitAttempt)
+    );
+  }
+
+  onSubmit() {
+    if (this.form.valid) {
+      this.authService.login(this.form.value);
     }
+    this.formSubmitAttempt = true;
   }
 }

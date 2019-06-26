@@ -1,4 +1,4 @@
-export class AssetModel {
+export class Asset {
     // tslint:disable-next-line:variable-name
     Serial_Number: string;
     // tslint:disable-next-line:variable-name

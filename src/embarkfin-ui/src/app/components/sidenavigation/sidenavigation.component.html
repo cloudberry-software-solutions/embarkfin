@@ -1,0 +1,13 @@
+<mat-sidenav-container class="example-container">
+  <mat-sidenav #sidenav mode="side" opened role="navigation" class="side-nav">
+    <mat-nav-list>
+      <a mat-list-item routerLink='/assetcapture'> <mat-icon class="nav-icon">edit</mat-icon> Capture an Asset</a>
+      <a mat-list-item routerLink='/assetgrid'> <mat-icon class="nav-icon">grid_on</mat-icon> All Assets</a>
+      <a mat-list-item routerLink='/settings'> <mat-icon class="nav-icon">settings</mat-icon> Settings</a>      
+      <a mat-list-item routerLink='/account'> <mat-icon class="nav-icon">account_circle</mat-icon> Profile</a>
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content> 
+    <router-outlet></router-outlet>   
+  </mat-sidenav-content>
+</mat-sidenav-container>
