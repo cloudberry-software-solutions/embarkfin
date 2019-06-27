@@ -1,0 +1,23 @@
+<div style="margin:50px;">
+  <div class="alert alert-info"><b>All Assets</b></div>
+  <div class="table-responsive">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>serialNumber</th>
+          <th>dateOfPurchase</th>
+          <th>period</th>
+          <th>purchasePrice</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let asset of assets">
+            <td>{{asset.serial_Number}}</td>
+            <td>{{asset.date_Purchased}}</td>
+            <td>{{asset.period}}</td>
+          <td>{{asset.purchase_Price}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

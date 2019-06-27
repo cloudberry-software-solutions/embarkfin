@@ -10,9 +10,14 @@ export class AssetService {
   constructor(private http: HttpClient) { }
 
   calcUrl = 'https://localhost:44381/embarkfin/v1/assets/create';
+  getassetsurl = 'https://localhost:44381/embarkfin/v1/assets/getall'
 
   saveAsset(asset: Asset) {
     return this.http.post(this.calcUrl, asset);
+  }
+
+  getAssets(){
+    return this.http.get(this.getassetsurl)
   }
 }
 

@@ -5,6 +5,7 @@ import {
   MatToolbarModule, MatMenuModule, MatIconModule, MatProgressSpinnerModule, MatDatepickerModule,
   MatNativeDateModule, MatSidenavModule, MatListModule
 } from '@angular/material';
+import { AssetgridComponent } from './assetgrid/assetgrid.component';
 @NgModule({
   imports: [
   CommonModule,
@@ -38,5 +39,6 @@ import {
    MatSidenavModule,
    MatListModule
    ],
+  declarations: [AssetgridComponent],
 })
 export class CustomMaterialModule { }

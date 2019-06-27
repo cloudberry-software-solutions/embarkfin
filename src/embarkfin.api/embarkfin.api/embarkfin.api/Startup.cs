@@ -25,7 +25,7 @@ namespace embarkfin.api
             services.AddCors(o => o.AddPolicy("CorsPolicy", cp => cp.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod().AllowCredentials()));
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             //Amend connectionString according to your local machine
-            services.AddDbContext<DatabaseContext>(options => options.UseSqlServer("Server=localhost; Database=Embarkfin; User Id = sa; Password= P@ssword1"));
+            services.AddDbContext<DatabaseContext>(options => options.UseSqlServer("Data Source =DESKTOP-UDV61VN\\SQLEXPRESS; Initial Catalog = Embarkfin; Persist Security Info = True; User ID = sa; Password = P@ssword1"));
             services.AddScoped<DatabaseContext>();
             services.AddScoped<AssetRepository>();
             services.AddScoped<EmbarkfinService>();
