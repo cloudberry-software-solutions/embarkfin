@@ -39,3 +39,17 @@ C:\Users\user\Pictures\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.api\o
 C:\Users\user\Pictures\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.api\obj\Debug\netcoreapp2.1\embarkfin.api.RazorTargetAssemblyInfo.cache
 C:\Users\user\Pictures\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.api\obj\Debug\netcoreapp2.1\embarkfin.api.dll
 C:\Users\user\Pictures\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.api\obj\Debug\netcoreapp2.1\embarkfin.api.pdb
+C:\Users\rawje\Projects\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.api\bin\Debug\netcoreapp2.1\embarkfin.api.deps.json
+C:\Users\rawje\Projects\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.api\bin\Debug\netcoreapp2.1\embarkfin.api.runtimeconfig.json
+C:\Users\rawje\Projects\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.api\bin\Debug\netcoreapp2.1\embarkfin.api.runtimeconfig.dev.json
+C:\Users\rawje\Projects\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.api\bin\Debug\netcoreapp2.1\embarkfin.api.dll
+C:\Users\rawje\Projects\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.api\bin\Debug\netcoreapp2.1\embarkfin.api.pdb
+C:\Users\rawje\Projects\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.api\obj\Debug\netcoreapp2.1\embarkfin.api.csprojAssemblyReference.cache
+C:\Users\rawje\Projects\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.api\obj\Debug\netcoreapp2.1\embarkfin.api.csproj.CoreCompileInputs.cache
+C:\Users\rawje\Projects\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.api\obj\Debug\netcoreapp2.1\embarkfin.api.RazorAssemblyInfo.cache
+C:\Users\rawje\Projects\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.api\obj\Debug\netcoreapp2.1\embarkfin.api.RazorAssemblyInfo.cs
+C:\Users\rawje\Projects\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.api\obj\Debug\netcoreapp2.1\embarkfin.api.AssemblyInfoInputs.cache
+C:\Users\rawje\Projects\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.api\obj\Debug\netcoreapp2.1\embarkfin.api.AssemblyInfo.cs
+C:\Users\rawje\Projects\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.api\obj\Debug\netcoreapp2.1\embarkfin.api.RazorTargetAssemblyInfo.cache
+C:\Users\rawje\Projects\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.api\obj\Debug\netcoreapp2.1\embarkfin.api.dll
+C:\Users\rawje\Projects\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.api\obj\Debug\netcoreapp2.1\embarkfin.api.pdb

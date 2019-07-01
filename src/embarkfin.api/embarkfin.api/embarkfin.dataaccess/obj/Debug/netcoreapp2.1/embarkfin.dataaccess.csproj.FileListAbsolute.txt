@@ -31,3 +31,14 @@ C:\Users\user\Pictures\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.dataa
 C:\Users\user\Pictures\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.dataaccess\obj\Debug\netcoreapp2.1\embarkfin.dataaccess.AssemblyInfo.cs
 C:\Users\user\Pictures\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.dataaccess\obj\Debug\netcoreapp2.1\embarkfin.dataaccess.dll
 C:\Users\user\Pictures\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.dataaccess\obj\Debug\netcoreapp2.1\embarkfin.dataaccess.pdb
+C:\Users\rawje\Projects\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.dataaccess\bin\Debug\netcoreapp2.1\embarkfin.dataaccess.deps.json
+C:\Users\rawje\Projects\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.dataaccess\bin\Debug\netcoreapp2.1\embarkfin.dataaccess.runtimeconfig.json
+C:\Users\rawje\Projects\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.dataaccess\bin\Debug\netcoreapp2.1\embarkfin.dataaccess.runtimeconfig.dev.json
+C:\Users\rawje\Projects\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.dataaccess\bin\Debug\netcoreapp2.1\embarkfin.dataaccess.dll
+C:\Users\rawje\Projects\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.dataaccess\bin\Debug\netcoreapp2.1\embarkfin.dataaccess.pdb
+C:\Users\rawje\Projects\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.dataaccess\obj\Debug\netcoreapp2.1\embarkfin.dataaccess.csprojAssemblyReference.cache
+C:\Users\rawje\Projects\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.dataaccess\obj\Debug\netcoreapp2.1\embarkfin.dataaccess.csproj.CoreCompileInputs.cache
+C:\Users\rawje\Projects\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.dataaccess\obj\Debug\netcoreapp2.1\embarkfin.dataaccess.AssemblyInfoInputs.cache
+C:\Users\rawje\Projects\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.dataaccess\obj\Debug\netcoreapp2.1\embarkfin.dataaccess.AssemblyInfo.cs
+C:\Users\rawje\Projects\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.dataaccess\obj\Debug\netcoreapp2.1\embarkfin.dataaccess.dll
+C:\Users\rawje\Projects\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.dataaccess\obj\Debug\netcoreapp2.1\embarkfin.dataaccess.pdb

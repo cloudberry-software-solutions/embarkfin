@@ -31,3 +31,14 @@ C:\Users\user\Pictures\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.secur
 C:\Users\user\Pictures\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.security\obj\Debug\netcoreapp2.1\embarkfin.security.AssemblyInfo.cs
 C:\Users\user\Pictures\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.security\obj\Debug\netcoreapp2.1\embarkfin.security.dll
 C:\Users\user\Pictures\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.security\obj\Debug\netcoreapp2.1\embarkfin.security.pdb
+C:\Users\rawje\Projects\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.security\bin\Debug\netcoreapp2.1\embarkfin.security.deps.json
+C:\Users\rawje\Projects\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.security\bin\Debug\netcoreapp2.1\embarkfin.security.runtimeconfig.json
+C:\Users\rawje\Projects\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.security\bin\Debug\netcoreapp2.1\embarkfin.security.runtimeconfig.dev.json
+C:\Users\rawje\Projects\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.security\bin\Debug\netcoreapp2.1\embarkfin.security.dll
+C:\Users\rawje\Projects\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.security\bin\Debug\netcoreapp2.1\embarkfin.security.pdb
+C:\Users\rawje\Projects\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.security\obj\Debug\netcoreapp2.1\embarkfin.security.csprojAssemblyReference.cache
+C:\Users\rawje\Projects\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.security\obj\Debug\netcoreapp2.1\embarkfin.security.csproj.CoreCompileInputs.cache
+C:\Users\rawje\Projects\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.security\obj\Debug\netcoreapp2.1\embarkfin.security.AssemblyInfoInputs.cache
+C:\Users\rawje\Projects\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.security\obj\Debug\netcoreapp2.1\embarkfin.security.AssemblyInfo.cs
+C:\Users\rawje\Projects\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.security\obj\Debug\netcoreapp2.1\embarkfin.security.dll
+C:\Users\rawje\Projects\embarkfin\src\embarkfin.api\embarkfin.api\embarkfin.security\obj\Debug\netcoreapp2.1\embarkfin.security.pdb

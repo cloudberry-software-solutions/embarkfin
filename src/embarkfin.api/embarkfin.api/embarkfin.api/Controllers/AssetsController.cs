@@ -8,7 +8,6 @@ using embarkfin.api.Models.Assets;
 using embarkfin.api.Models.Database;
 using embarkfin.api.Repositories;
 using embarkfin.api.Application;
-using ZXing.Common;
 using Microsoft.AspNetCore.Cors;
 using embarkfin.api.Models.Api;
 
@@ -52,6 +51,14 @@ namespace embarkfin.api.Controllers
         public List<AssetEntity> getAssets()
         {
             return assetRepository.GetAll();
+        }
+
+        [EnableCors("CorsPolicy")]
+        [HttpGet("/embarkfin/v1/assets/getQRCode/{Embedded_Value}")]
+        //[Route("/embarkfin/v1/assets/getQRCode")]
+        public String getAssets(String Embedded_Value)
+        {
+            return embarkfinService.createBarcode(Embedded_Value);
         }
 
         // POST api/values
