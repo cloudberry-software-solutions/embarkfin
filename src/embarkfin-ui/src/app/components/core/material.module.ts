@@ -6,6 +6,7 @@ import {
   MatNativeDateModule, MatSidenavModule, MatListModule
 } from '@angular/material';
 import { AssetgridComponent } from './assetgrid/assetgrid.component';
+import { AssetqrcodeComponent } from './assetqrcode/assetqrcode.component';
 @NgModule({
   imports: [
   CommonModule,

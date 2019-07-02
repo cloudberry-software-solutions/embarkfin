@@ -14,6 +14,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { SidenavigationComponent } from './components/sidenavigation/sidenavigation.component';
 import { HeaderComponent } from './components/header/header.component';
 import { RouterModule } from '@angular/router';
+import { AssetqrcodeComponent } from './components/core/assetqrcode/assetqrcode.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { RouterModule } from '@angular/router';
     LoginComponent,
     RegisterComponent,
     SidenavigationComponent,
-    HeaderComponent
+    HeaderComponent,
+    AssetqrcodeComponent
   ],
   imports: [
     BrowserModule,

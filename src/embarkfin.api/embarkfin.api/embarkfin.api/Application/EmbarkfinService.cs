@@ -2,8 +2,6 @@
 using embarkfin.api.Models.Database;
 using embarkfin.api.Repositories;
 using Microsoft.EntityFrameworkCore;
-//using System.Drawing;
-//using System.Drawing.Imaging;
 using System.IO;
 using System.Linq;
 using System.Web;

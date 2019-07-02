@@ -50,15 +50,16 @@ namespace embarkfin.api.Controllers
         [Route("/embarkfin/v1/assets/getAll")]
         public List<AssetEntity> getAssets()
         {
+
             return assetRepository.GetAll();
         }
 
         [EnableCors("CorsPolicy")]
         [HttpGet("/embarkfin/v1/assets/getQRCode/{Embedded_Value}")]
-        //[Route("/embarkfin/v1/assets/getQRCode")]
         public String getAssets(String Embedded_Value)
         {
-            return embarkfinService.createBarcode(Embedded_Value);
+                return embarkfinService.createBarcode(Embedded_Value);
+           
         }
 
         // POST api/values
@@ -85,7 +86,7 @@ namespace embarkfin.api.Controllers
                 {
                     HttpStatusCode = 500,
                     Result = "Asset save failed",
-                    HasError = false,
+                    HasError = true,
                     ErrorMessages = new List<string> { e.Message }
                 };
             }
