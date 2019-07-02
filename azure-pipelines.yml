@@ -16,8 +16,7 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
-    pwd
-    ls -R
+    cd src/embarkfin-ui
     npm install -g @angular/cli
     npm install
     ng build --prod
