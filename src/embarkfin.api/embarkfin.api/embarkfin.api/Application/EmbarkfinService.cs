@@ -29,7 +29,7 @@ namespace embarkfin.api.Application
         {
                 String code = embeddedValue;
                 QRCodeGenerator gen = new QRCodeGenerator();
-                QRCodeData QRCODE = gen.CreateQrCode(embeddedValue, QRCodeGenerator.ECCLevel.L);
+                QRCodeData QRCODE = gen.CreateQrCode(embeddedValue, QRCodeGenerator.ECCLevel.Q);
                 Base64QRCode theCode = new Base64QRCode(QRCODE);
 
                 return theCode.GetGraphic(20);

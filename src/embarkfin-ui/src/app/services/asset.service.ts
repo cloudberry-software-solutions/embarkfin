@@ -1,7 +1,6 @@
 import { Asset } from '../models/asset';
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders, HttpParams } from '@angular/common/http';
-
 @Injectable({
   providedIn: 'root'
 })
@@ -21,7 +20,7 @@ export class AssetService {
     return this.http.get(this.getassetsurl)
   }
 
-  getQRCode(embeddedValue: string ) {
+ getQRCode(embeddedValue: string ) {
     return this.http.get(this.getQrCodeurl+ '/' + embeddedValue)
   }
 }

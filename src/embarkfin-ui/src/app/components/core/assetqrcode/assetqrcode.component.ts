@@ -22,23 +22,20 @@ export class AssetqrcodeComponent implements OnInit {
     if(this.qrCode != undefined){
       this.src = this.sanitizer.bypassSecurityTrustUrl('data:image/jpeg;charset=binary;base64,' + this.qrCode.getqrcode());
     }
-    console.log(this.src);
+    console.log(this.qrCode);
   }
 
-  getQrCodeFromService(embeddedValue: string) {
+   getQrCodeFromService(embeddedValue: string) {
     console.log(this.tester)
     this.tester++ 
    this.assetService
   .getQRCode(embeddedValue)
   .subscribe((data:QrCode) => {
-    console.log(data.getqrcode());
-    this.qrCode = data;
-  });
+    console.log(data);
+    this.qrCode = new QrCode(data);
+    this.src = this.sanitizer.bypassSecurityTrustUrl('data:image/jpeg;charset=binary;base64,' + this.qrCode.getqrcode());
 
-  console.log(this.qrCode);
-
-
-
+  }) ;
   }
 
 }

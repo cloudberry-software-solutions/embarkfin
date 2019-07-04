@@ -1,15 +1,15 @@
 export class QrCode {
-  qrcode: string;
+  public qrcode: string;
 
-  constructor(qrcode: string){
-    this.qrcode = qrcode;
+  public constructor(object : Object){
+    Object.assign(this, object)
   }
 
   public setqrcode(barcode: string){
     this.qrcode = barcode;
   }
 
-  public getqrcode()
+  public getqrcode() : string
   {
     return this.qrcode;
   }
