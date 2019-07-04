@@ -1,8 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, EmbeddedViewRef } from '@angular/core';
 import { AssetService } from 'src/app/services/asset.service';
 import { ActivatedRoute } from '@angular/router';
-import { stringify } from '@angular/compiler/src/util';
 import { DomSanitizer } from '@angular/platform-browser';
+import { QrCode } from 'src/app/models/qrcode';
 
 @Component({
   selector: 'app-assetqrcode',
@@ -11,21 +11,32 @@ import { DomSanitizer } from '@angular/platform-browser';
 })
 export class AssetqrcodeComponent implements OnInit {
 
-  qrCode : any;
-  imageScript : any
+  qrCode : QrCode;
+  src : any = " ";
+  tester : number = 0;
 
   constructor(private assetService: AssetService, private route: ActivatedRoute, private sanitizer: DomSanitizer) { }
 
   ngOnInit() {
     this.getQrCodeFromService(this.route.snapshot.paramMap.get("embeddedvalue"))
-    this.sanitizer.bypassSecurityTrustHtml("data:image/png;base64,"+this.qrCode);
+    if(this.qrCode != undefined){
+      this.src = this.sanitizer.bypassSecurityTrustUrl('data:image/jpeg;charset=binary;base64,' + this.qrCode.getqrcode());
+    }
+    console.log(this.src);
   }
 
   getQrCodeFromService(embeddedValue: string) {
-  this.qrCode =  this.assetService.getQRCode(embeddedValue);
-  this.sanitizer.bypassSecurityTrustUrl("http://localhost:4200/assetqrcode/:embeddedvalue");
+    console.log(this.tester)
+    this.tester++ 
+   this.assetService
+  .getQRCode(embeddedValue)
+  .subscribe((data:QrCode) => {
+    console.log(data.getqrcode());
+    this.qrCode = data;
+  });
+
   console.log(this.qrCode);
-  console.log(this.imageScript);
+
 
 
   }

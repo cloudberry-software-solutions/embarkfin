@@ -22,7 +22,7 @@ export class AssetService {
   }
 
   getQRCode(embeddedValue: string ) {
-    return this.http.get(this.getQrCodeurl,  {params : new HttpParams().set('embeddedValue', embeddedValue), responseType: 'text' })
+    return this.http.get(this.getQrCodeurl+ '/' + embeddedValue)
   }
 }
 

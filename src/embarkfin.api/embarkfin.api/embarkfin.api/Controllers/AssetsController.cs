@@ -56,9 +56,9 @@ namespace embarkfin.api.Controllers
 
         [EnableCors("CorsPolicy")]
         [HttpGet("/embarkfin/v1/assets/getQRCode/{Embedded_Value}")]
-        public String getAssets(String Embedded_Value)
+        public QrCode getAssets(String Embedded_Value)
         {
-                return embarkfinService.createBarcode(Embedded_Value);
+                return new QrCode( embarkfinService.createBarcode(Embedded_Value));
            
         }
 
@@ -70,7 +70,6 @@ namespace embarkfin.api.Controllers
         {
             try
             {
-                //refactor when service is created, factory method should not be called in the controller.
                 assetRepository.Insert(test);
 
                 return new ApiResponse
