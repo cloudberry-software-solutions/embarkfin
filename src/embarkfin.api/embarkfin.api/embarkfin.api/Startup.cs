@@ -26,7 +26,8 @@ namespace embarkfin.api
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             //Amend connectionString according to your local machine
             // services.AddDbContext<DatabaseContext>(options => options.UseSqlServer("Data Source =DESKTOP-UDV61VN\\SQLEXPRESS; Initial Catalog = Embarkfin; Persist Security Info = True; User ID = sa; Password = P@ssword1"));
-            services.AddDbContext<DatabaseContext>(options => options.UseSqlServer("Data Source=localhost;Initial Catalog=Embarkfin;Persist Security Info=True;User ID=sa;Password=P@ssword1")); //connection for Shawns machine
+            //services.AddDbContext<DatabaseContext>(options => options.UseSqlServer("Data Source=localhost;Initial Catalog=Embarkfin;Persist Security Info=True;User ID=sa;Password=P@ssword1")); //connection for Shawns machine
+				services.AddDbContext<DatabaseContext>(options => options.UseSqlServer("Data Source=DESKTOP-UDV61VN\\SQLEXPRESS;Initial Catalog=Embarkfin;Persist Security Info=True;User ID=sa;Password=P@ssword1")); //connection for Bruces machine
 
             services.AddScoped<DatabaseContext>();
             services.AddScoped<AssetRepository>();

@@ -38,4 +38,8 @@ export class AssetqrcodeComponent implements OnInit {
   }) ;
   }
 
+  printScreen(){
+    window.print()
+  }
+
 }
